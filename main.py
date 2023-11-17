@@ -1,12 +1,5 @@
 from art import *
-class player:
-    def __init__(self, name,gender):
-        self.name = name
-        self.xp = 0
-        self.gender = gender
-        
-    def moving(self):
-        print("moving")
+from player_class import player
 title = text2art("QUEST QUASAR")
 print(title)
 print("hello, player to QUEST QUASAR where you'll have to face danger or be the danger gain more power to face your enimes")
