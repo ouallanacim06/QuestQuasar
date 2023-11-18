@@ -1,5 +1,5 @@
 from art import *
-from player_class import player
+from player_class import player,player_action
 import subprocess
 def main():
     title = text2art("QUEST QUASAR")
@@ -25,5 +25,5 @@ def main():
     print("unkown: you're in the tower and you're irruglare and if you want more answer you have to go to the top of this tower")
     print("unkown: now you have to face this enimie")
     print("you can choose between two options:\n")
-    pl_choise = int(input("1.attack"))
+    pl_choise = int(input("1.attack\n"))
 main()
